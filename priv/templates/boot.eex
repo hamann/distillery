@@ -499,8 +499,8 @@ case "$1" in
             -env ERL_LIBS "$REL_LIB_DIR" \
             -pa "$CONSOLIDATED_DIR" \
             ${__code_paths} \
-            -args_file "$VMARGS_PATH" \
             -config "$SYS_CONFIG_PATH" \
+            -args_file "$VMARGS_PATH" \
             -mode "$CODE_LOADING_MODE" \
             ${ERL_OPTS} \
             -user Elixir.IEx.CLI \
@@ -547,8 +547,8 @@ case "$1" in
             -boot_var ERTS_LIB_DIR "$ERTS_LIB_DIR" \
             -env ERL_LIBS "$REL_LIB_DIR" \
             -pa "$CONSOLIDATED_DIR" \
-            -args_file "$VMARGS_PATH" \
             -config "$SYS_CONFIG_PATH" \
+            -args_file "$VMARGS_PATH" \
             -mode "$CODE_LOADING_MODE" \
             ${ERL_OPTS} \
             -extra ${EXTRA_OPTS}
